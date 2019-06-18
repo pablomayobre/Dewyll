@@ -1,0 +1,40 @@
+{
+  "name": "dewyll",
+  "version": "1.0.0",
+  "description": "Dewyll is a game based on Chess where you use cards to decide how your pieces move",
+  "keywords": [
+    "chess-game",
+    "card-game",
+    "pixijs",
+    "multiplayer",
+    "game"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node fuse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Positive07/Dewyll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Positive07/Dewyll/issues"
+  },
+  "homepage": "https://positive07.itch.io/Dewyll",
+  "author": "Pablo Ariel Mayobre <pablo.a.mayobre@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/pixi.js": "^4.8.8",
+    "fuse-box": "^3.7.1",
+    "prettier": "^1.18.2",
+    "readme-md-generator": "^0.3.0",
+    "terser": "^4.0.0",
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "pixi.js": "^5.0.4"
+  }
+}
