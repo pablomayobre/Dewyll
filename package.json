@@ -26,6 +26,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/pixi.js": "^4.8.8",
+    "@types/seedrandom": "^2.4.28",
     "fuse-box": "^3.7.1",
     "prettier": "^1.18.2",
     "readme-md-generator": "^0.3.0",
@@ -35,6 +36,7 @@
     "typescript": "^3.5.2"
   },
   "dependencies": {
-    "pixi.js": "^5.0.4"
+    "pixi.js": "^5.0.4",
+    "seedrandom": "^3.0.1"
   }
 }
