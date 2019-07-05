@@ -29,7 +29,7 @@
     "@types/seedrandom": "^2.4.28",
     "fuse-box": "^3.7.1",
     "prettier": "^1.18.2",
-    "readme-md-generator": "^0.3.0",
+    "readme-md-generator": "^0.5.1",
     "terser": "^4.0.2",
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",

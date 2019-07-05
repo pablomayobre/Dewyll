@@ -1680,10 +1680,10 @@ inquirer@^3.0.6:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
-inquirer@^6.3.1:
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-6.3.1.tgz#7a413b5e7950811013a3db491c61d1f3b776e8e7"
-  integrity sha512-MmL624rfkFt4TG9y/Jvmt8vdmOo836U7Y0Hxr2aFk3RelZEGX4Igk0KabWrcaaZaTv9uzglOqWh1Vly+FAWAXA==
+inquirer@~6.4.1:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-6.4.1.tgz#7bd9e5ab0567cd23b41b0180b68e0cfa82fc3c0b"
+  integrity sha512-/Jw+qPZx4EDYsaT6uz7F4GJRNFMRdKNeUZw3ZnKV8lyuUgz/YWRCSUAJMZSVhSq4Ec0R2oYnyi6b3d4JXcL5Nw==
   dependencies:
     ansi-escapes "^3.2.0"
     chalk "^2.4.2"
@@ -2773,16 +2773,16 @@ readdirp@^2.0.0:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-readme-md-generator@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/readme-md-generator/-/readme-md-generator-0.3.0.tgz#84fe66b54c887d9e1ef182cd2b0baf128c4ca458"
-  integrity sha512-xzVbkDOnE6JHgbugnckt3aspCFJHuyZybVhd1AX0LZSD1daFG5vlk9j2qiboc0LSiiE5GZ5XvHJNF9wFYd+9zw==
+readme-md-generator@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/readme-md-generator/-/readme-md-generator-0.5.1.tgz#2ef42c69574b9a7270bc58b1dc11cb7b0d51d0cc"
+  integrity sha512-1Io1rtMUwUWFuKif8U2vC525Pcb3DzPlIAgijKFGxKmcPVSoXd7rF9Esx9qUFpepxWH04+PfL5g+b5sqJNsRTQ==
   dependencies:
     boxen "^4.0.0"
     date-fns "^1.30.1"
     ejs "^2.6.1"
     git-repo-name "^1.0.1"
-    inquirer "^6.3.1"
+    inquirer "~6.4.1"
     load-json-file "^6.0.0"
     lodash "^4.17.11"
     ora "^3.4.0"
