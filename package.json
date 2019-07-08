@@ -12,7 +12,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node fuse.js"
+    "start": "npx pts-node -T fuse",
+    "dist": "npx ts-node -T fuse dist",
+    "preview": "npx ts-node -T fuse preview"
   },
   "repository": {
     "type": "git",
@@ -25,18 +27,25 @@
   "author": "Pablo Ariel Mayobre <pablo.a.mayobre@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/fontfaceobserver": "^0.0.6",
     "@types/pixi.js": "^4.8.8",
     "@types/seedrandom": "^2.4.28",
-    "fuse-box": "^3.7.1",
+    "@types/sha.js": "^2.4.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "fuse-box": "^4.0.0-alpha.53",
     "prettier": "^1.18.2",
-    "readme-md-generator": "^0.3.0",
-    "terser": "^4.1.0",
-    "tslint": "^5.18.0",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.5.2"
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2",
+    "uglify-js": "^3.6.0"
   },
   "dependencies": {
+    "fontfaceobserver": "^2.1.0",
     "pixi.js": "^5.0.4",
-    "seedrandom": "^3.0.1"
+    "seedrandom": "^3.0.1",
+    "sha.js": "^2.4.11"
   }
 }

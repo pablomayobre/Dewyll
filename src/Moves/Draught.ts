@@ -1,11 +1,11 @@
 import { indexFromXY, indexToXY } from '../Base/Board'
-import { getPlayer, Move, MoveType, standardDirection } from './Util'
+import { getPlayer, MoveOverlay, MoveType, standardDirection } from './Util'
 
 interface DraughtProps {
   killOnly: boolean
 }
 
-export const DraughtMove = (props: DraughtProps): Move<any, any> => {
+export const DraughtMove = (props: DraughtProps): MoveOverlay<any, any> => {
   return (board, from) => {
     const [player] = getPlayer(board, from)
 

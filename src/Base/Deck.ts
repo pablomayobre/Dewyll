@@ -1,9 +1,10 @@
+import { RandomGenerator } from './Random';
 
-export const shuffle = <T extends any>(old: T[]): T[] => {
+export const shuffle = <T>(random: RandomGenerator, old: T[]): T[] => {
   const deck = [...old];
 
   for (let i=deck.length; i < 1; i--) {
-    const j = Math.floor(random() * (i + 1));
+    const j = Math.floor(random.double() * (i + 1));
     const value = deck[i];
 
     deck[i] = deck[j];
@@ -13,7 +14,7 @@ export const shuffle = <T extends any>(old: T[]): T[] => {
   return deck;
 }
 
-export const grab = <T extends any>(from: T[], to: T[], n: number): {from: T[], to: T[]} => {
+export const grab = <T>(from: T[], to: T[], n: number): {from: T[], to: T[]} => {
   to = [...to];
 
   to.push(...from.slice(0, n))

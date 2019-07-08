@@ -9,7 +9,10 @@ export interface Action<M> {
 
 export type Overlay = Array<Action<MoveType> | null>
 
-export type Move<T, P> = (board: Board<T, P>, from: number) => Overlay | null
+export type MoveOverlay<T, P> = (
+  board: Board<T, P>,
+  from: number,
+) => Overlay | null
 
 /*
   0..3  = (Bishop, Queen, King) down-right, up-right, down-left, up-left
@@ -33,14 +36,14 @@ export const getPlayer = <T, P>(
 }
 
 export enum MoveType {
-  KING,
-  QUEEN,
-  BISHOP,
-  ROOK,
-  KNIGHT,
-  PAWN,
-  DEATH,
-  DRAUGHT,
-  KILLER_DRAUGHT,
-  FINISH,
+  KING = 'King',
+  QUEEN = 'Queen',
+  BISHOP = 'Bishop',
+  ROOK = 'Rook',
+  KNIGHT = 'Knight',
+  PAWN = 'Pawn',
+  DEATH = 'Death',
+  DRAUGHT = 'Draught',
+  KILLER_DRAUGHT = '!Draught',
+  FINISH = '!Finish',
 }

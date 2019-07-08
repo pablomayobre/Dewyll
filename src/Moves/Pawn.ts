@@ -1,7 +1,7 @@
 import { indexFromXY, indexToXY } from '../Base/Board'
-import { getPlayer, Move, MoveType } from './Util'
+import { getPlayer, MoveOverlay, MoveType } from './Util'
 
-const pawnMove: Move<any, any> = (board, from) => {
+const pawnMove: MoveOverlay<any, any> = (board, from) => {
   const [player, direction] = getPlayer(board, from)
 
   const [fromx, fromy] = indexToXY(8, from)

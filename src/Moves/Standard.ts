@@ -1,5 +1,5 @@
 import { indexFromXY, indexToXY } from '../Base/Board'
-import { getPlayer, Move, MoveType, standardDirection } from './Util'
+import { getPlayer, MoveOverlay, MoveType, standardDirection } from './Util'
 
 interface StandardProps {
   start: number
@@ -7,7 +7,7 @@ interface StandardProps {
   distance: number
 }
 
-export const StandardMove = (props: StandardProps): Move<any, any> => {
+export const StandardMove = (props: StandardProps): MoveOverlay<any, any> => {
   return (board, from) => {
     const [player] = getPlayer(board, from)
 
