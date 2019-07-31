@@ -31,7 +31,7 @@
     "@types/pixi.js": "^4.8.8",
     "@types/seedrandom": "^2.4.28",
     "@types/sha.js": "^2.4.0",
-    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
     "eslint": "^6.0.1",
     "eslint-config-prettier": "^6.0.0",
