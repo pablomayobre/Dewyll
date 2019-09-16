@@ -38,7 +38,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "fuse-box": "^4.0.0-alpha.53",
     "prettier": "^1.18.2",
-    "ts-node": "^8.3.0",
+    "ts-node": "^8.4.1",
     "typescript": "^3.6.3",
     "uglify-js": "^3.6.0"
   },
